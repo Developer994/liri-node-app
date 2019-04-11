@@ -1,0 +1,31 @@
+{
+  "name": "Assignment9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "dotenv": "^7.0.0",
+    "inquirer": "^6.2.2",
+    "node-spotify-api": "^1.0.7",
+    "request": "^2.88.0",
+    "spotify": "^0.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Developer994/liri-node-app.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Developer994/liri-node-app/issues"
+  },
+  "homepage": "https://github.com/Developer994/liri-node-app#readme"
+}
