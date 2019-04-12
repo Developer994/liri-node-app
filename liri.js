@@ -61,7 +61,8 @@ var doWhatItSays = function () {
     });
 }
 
-// data1 is 
+// data1 is what the user is searching for after inputing node liri (e.g. spotify-this-song).
+// data2 is the 3rd argument from process.argv[3] which would be the name of the song, movie or concert the user will type in after the commands such as spotify-this-song.
 var choose = function (data1, data2) {
     switch (data1) {
         case 'spotify-this-song':
